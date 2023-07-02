@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+#Judul WEB
+st.title('created by : mhj.jasim@gmail.com')
 #Navigasi sidebar
 with st.sidebar:
     selected = option_menu ('Hitung Luas Bangun',
