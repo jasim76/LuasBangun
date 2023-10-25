@@ -34,3 +34,10 @@ if (selected == 'Hitung Luas Segitiga') :
         luassgt = 1/2*(alas*tinggi)
         st.write ('Luas Segitiga adalah : ', luassgt)
         st.success (f'Luas Segitiga adalah = {luassgt}')
+
+#Kalkulator
+if (selected == 'Kalkulator') :
+    st.title ('Kalkulator')
+    result = eval(input("Enter an expression: "))
+print(result)
+
