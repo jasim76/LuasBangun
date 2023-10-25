@@ -5,8 +5,8 @@ from streamlit_option_menu import option_menu
 st.title('created by : mhj.jasim@gmail.com')
 #Navigasi sidebar
 with st.sidebar:
-    selected = option_menu ('Hitung Luas Bangun','Aplikasi',
-    ['Hitung Luas Persegi Panjang','Hitung Luas Segitiga'],['KALKULATOR'],
+    selected = option_menu ('APLIKASI',
+    ['Hitung Luas Persegi Panjang','Hitung Luas Segitiga','Kalulator'],
     default_index=0)
 
 #Persegi Panjang
