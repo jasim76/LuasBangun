@@ -38,6 +38,7 @@ if (selected == 'Hitung Luas Segitiga') :
 #Kalkulator
 if (selected == 'Kalkulator') :
     st.title ('Kalkulator')
-    result = eval(input("Enter an expression: "))
+    persamaan = st.str_input
+    result = eval(input("persamaan"))
     print(result)
 
