@@ -41,5 +41,5 @@ if (selected == 'Kalkulator') :
     
     persamaan = st.text_input('Masukan ekspresi yang akan dihitung')
     result = eval("persamaan")
-    print(result)
+    st.success(result)
 
