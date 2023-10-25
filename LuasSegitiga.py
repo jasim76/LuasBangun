@@ -38,7 +38,7 @@ if (selected == 'Hitung Luas Segitiga') :
 #Kalkulator
 if (selected == 'Kalkulator') :
     st.title ('Kalkulator')
-    persamaan = st.text('Masukan ekspresi yang akan dihitung')
-    result = eval(input("persamaan"))
+    persamaan = st.text(input('Masukan ekspresi yang akan dihitung'))
+    result = eval("persamaan")
     print(result)
 
