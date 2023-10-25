@@ -39,5 +39,5 @@ if (selected == 'Hitung Luas Segitiga') :
 if (selected == 'Kalkulator') :
     st.title ('Kalkulator')
     result = eval(input("Enter an expression: "))
-print(result)
+    print(result)
 
